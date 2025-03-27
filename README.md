@@ -1,4 +1,6 @@
-SHOP ENTRIES using JDBC
+                                                                   SHOP ENTRIES using JDBC
+
+                                                                  
 This is an JDBC code to connect eclipse and mysql such that we enter data in eclipse and the output gets stored in mysql.
 This is about shop entries in which customerID, items number is asked, and according to the list the total price is calculated. 
 
