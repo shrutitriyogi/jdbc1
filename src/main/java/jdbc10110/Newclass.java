@@ -58,7 +58,7 @@ public class Newclass {
 		        
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/shruti","root","Goa0988$");
+			 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database","root","password");
 			
 			Statement stmt = con.createStatement();
 			String query = "insert into table1 values ('"+cusID+"','"+item+"', '"+price+"')";
