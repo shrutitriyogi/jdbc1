@@ -50,7 +50,7 @@ public class Newclass {
 		}
 		 sc.close();
 		 if (item.length()>0) {
-			 item.setLength(item.length()-2);
+			 item.setLength(item.length()-1);
 		 }
 		try {
 			 Connection con = null;
